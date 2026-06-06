@@ -10,6 +10,7 @@ export const Navbar: React.FC = () => {
     background: '#16161656',
     borderRadius: '2rem',
     backdropFilter: 'blur(7px)',
+    WebkitBackdropFilter: 'blur(7px)',
     padding: '.5rem',
     justifyContent: 'center',
     alignItems: 'center',
