@@ -8,8 +8,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
-dist-ssr
 *.local
 
 # Editor directories and files
@@ -104,7 +102,6 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 .output
 
 # Gatsby files
@@ -114,7 +111,6 @@ dist
 # public
 
 # vuepress build output
-.vuepress/dist
 
 # vuepress v2.x temp directory
 .temp
@@ -123,7 +119,6 @@ dist
 .svelte-kit/
 
 # vitepress build output
-**/.vitepress/dist
 
 # vitepress cache directory
 **/.vitepress/cache
