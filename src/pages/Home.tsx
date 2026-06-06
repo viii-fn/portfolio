@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilePic from '../assets/pfp.jpg';
+import ProfilePic from '../assets/pfp.JPG';
 
 const name: string = 'Elvis';
 const lastName: string = 'Irhaye';
