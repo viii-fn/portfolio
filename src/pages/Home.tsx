@@ -69,10 +69,28 @@ const AboutSection: React.FC = () => {
 
 const Project: React.FC = () => {
   return(
-    <div className='mx-auto w-[90%] my-15 px-7.5'>
+    <div className='mx-auto w-[90%] my-15'>
       <h1 className='text-5xl'>
-        Check out my projects
+        Recent Projects
       </h1>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-5 mt-5'>
+        <div className='rounded-4xl bg-[#16161685] p-5'>
+          <a href="https://neon-compressor.pxxl.click">
+            <h2 className='text-3xl text-white mb-2.5'>Neon Compressor</h2>
+          </a>
+          <p className='text-[#9b9b9b]'>A light weight image compressor with client side blob metrics</p>
+        </div>
+        <div className='rounded-4xl bg-[#16161685] p-5'>
+          <h2 className='text-3xl text-white mb-2.5'>Asphalt Edit</h2>
+          <p className='text-[#9b9b9b]'>Color grading and adjustments made on photos to improve their visual appeal</p>
+        </div>
+        <div className='rounded-4xl bg-[#16161685] p-5'>
+          <a href="https://github.com/viii-fn/Fn_Control_Pannel">
+            <h2 className='text-3xl text-white mb-2.5'>Fn_Control_Pannel</h2>
+          </a>
+          <p className='text-[#9b9b9b]'>A simple batch file tool for automating repetitive tasks as well as getting vital system info from windows laptops</p>
+        </div>
+      </div>
     </div>
   )
 }
