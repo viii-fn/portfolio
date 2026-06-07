@@ -1,5 +1,7 @@
 import React from 'react';
 import ProfilePic from '../assets/pfp.JPG';
+import { Footer } from '../components/Footer';
+import Icon from '../../public/favicon.png';
 
 const name: string = 'Elvis';
 const lastName: string = 'Irhaye';
@@ -40,7 +42,7 @@ const AboutSection: React.FC = () => {
     <>
       <div className='p-5 my-10 mx-auto bg-[#16161685] shadow-[#ffffff20] text-[#9b9b9b] w-[90%] rounded-4xl md:grid md:grid-cols-2'>
         <div className='p-2.5 rounded-2xl my-5'>
-          <h1 className='text-5xl text-white pb-2.5'>Hey there</h1>
+          <h1 className='text-5xl text-white pb-2.5'>Hey there</h1> 
           <h2 className='text-xl font-thin'>
           I'm {name}, a self-taught <strong>{roles[0].name}</strong>, <strong>{roles[1].name}</strong>, <strong>{roles[2].name}</strong>, and <strong>{roles[3].name}</strong> who is driven by deep passion and obssession for technology, terminals and smooth animations.
           </h2>
@@ -65,33 +67,23 @@ const AboutSection: React.FC = () => {
   )
 }
 
-const FooterSection: React.FC = () => {
-  let date = new Date();
-  let year = date.getFullYear();
-
+const Project: React.FC = () => {
   return(
-    <>
-      <div className='w-fit rounded-4xl bg-[#16161685] mx-auto p-5 mb-40'>
-        <div className='text-[#9b9b9b] text-xl w-fit flex flex-col md:flex-row'>
-          &copy; {year} {name} {lastName}.
-          <a className='mx-3 mt-5 md:mt-0 hover:text-white transition duration-300' href="https://github.com/viii-fn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a className='mx-3 hover:text-white transition duration-300' href="https://github.com/viii-fn" target="_blank" rel="noopener noreferrer">Github</a>
-          <a className='mx-3 hover:text-white transition duration-300' href="https://github.com/viii-fn" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a className='mx-3 hover:text-white transition duration-300' href="https://github.com/viii-fn" target="_blank" rel="noopener noreferrer">TikTok</a>
-          <a className='mx-3 hover:text-white transition duration-300' href="https://github.com/viii-fn" target="_blank" rel="noopener noreferrer">FaceBook</a>
-          <a className='mx-3 hover:text-white transition duration-300' href="https://github.com/viii-fn" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-        </div>
-      </div>
-    </>
+    <div className='mx-auto w-[90%] my-15 px-7.5'>
+      <h1 className='text-5xl'>
+        Check out my projects
+      </h1>
+    </div>
   )
 }
 
 export const Home: React.FC = () => {
   return(
     <>
-      {/* <HeroSection /> */}
+      <HeroSection />
       <AboutSection />
-      <FooterSection />
+      <Project />
+      <Footer />
     </>
   )
 }
