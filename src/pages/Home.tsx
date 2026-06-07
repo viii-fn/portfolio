@@ -1,7 +1,6 @@
 import React from 'react';
 import ProfilePic from '../assets/pfp.JPG';
 import { Footer } from '../components/Footer';
-import Icon from '../../public/favicon.png';
 
 const name: string = 'Elvis';
 const lastName: string = 'Irhaye';
