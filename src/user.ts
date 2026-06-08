@@ -40,7 +40,7 @@ export const elvis: userProp[] = [
       {
         title: 'cinematographer',
         career: 'photography/videography',
-        years: 2,
+        years: 6,
         skills: ['photoshop', 'VSDC editor', 'premier rush'],
         job: [
           {
@@ -63,7 +63,7 @@ export const elvis: userProp[] = [
       {
         url: 'https://neon-compressor.pxxl.click',
         title: 'Neon Compressor',
-        description: 'A light weight image compressor with client side blob metrics'
+        description: 'A light weight image compressor with client side blob metrics. Built with react and tailwindcss, uses the browser native canvas api to compress images without the need for a backend server'
       },
 
       {
@@ -73,9 +73,9 @@ export const elvis: userProp[] = [
       },
 
       {
-        url: 'https://github.com/viii-fn/Fn_Control_Pannel',
-        title: 'Fn_Control_Pannel',
-        description: 'A simple batch file tool for automating repetitive tasks as well as getting vital system info from windows'
+        url: 'https://dedsecvi.vercel.app/',
+        title: 'DedsecVI',
+        description: 'An early project of mine, a tribute to the watch dogs franchise built with html and plain css.contains a roadmap and data for ethical hacking and cybersecurity as well as a collection of resources for learning the craft'
       }
     ],
     social: [
