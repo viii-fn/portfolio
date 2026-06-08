@@ -2,6 +2,8 @@ html, body {
   background: black;
   margin: 0;
   padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: transparent #9b9b9b;
   
   @media (max-width: 768px) {
     scrollbar-width: none;
