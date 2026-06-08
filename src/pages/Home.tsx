@@ -4,7 +4,6 @@ import { Footer } from '../components/Footer';
 import { elvis } from '../user';
 
 
-
 const HeroSection: React.FC = () => {
   return (
     <>
@@ -19,8 +18,8 @@ const HeroSection: React.FC = () => {
           <div className='grid grid-cols-2 gap-3 mt-5'>
             {user.roles.map((role, index) => (
               <div key={index} className='p-2.5 rounded-4xl text-[#9b9b9b] bg-[#2c2c2c] hover:text-white text-center  transition duration-300 border'>
-                <h1 className='text-6xl animate-pulse text-white'>{role.years}+</h1> <br />
-                <h2 className='md:text-xl'>years of experience in {role.career}</h2>
+                <h1 className='text-6xl animate-pulse text-white'>{role.years}+ years</h1> <br />
+                <h2 className='md:text-xl'>of experience in {role.career}</h2>
               </div>
             ))}
           </div>
@@ -69,20 +68,19 @@ const Project: React.FC = () => {
     <>
     {elvis.map(user => (
       <div className='mx-auto w-[90%] my-15'>
-        <h1 className='text-5xl'>
-          Recent Projects
+        <h1 className='text-3xl my-7'>
+          Things I've worked on
         </h1>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-5 mt-5'>
-          {user.projects.map((project, index) => (
-            <a href={project.url}>
-              <div key={index} className='rounded-4xl bg-[#16161685] relative h-fit overflow-hidden origin-top-left aspect-video'>
-                <iframe src={project.url} style={{height: '400%', width: '400%'}} className='w-full h-full scale-[0.25] origin-top-left pointer-events-none'></iframe>
-                <p className='text-lg origin-center'>
-                  {project.title}
-                </p>
-            </div>
-            </a>
-          ))}
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
+          <div className='bg-[#16161685]'>
+            {user.projects.map((project, index) => (
+              <a href={project.url}>
+                <div key={index} className='rounded-4xl bg-[#16161685] relative h-fit overflow-hidden origin-top-left aspect-video'>
+                  <iframe src={project.url} style={{height: '400%', width: '400%'}} className='w-full h-full scale-[0.25] origin-top-left pointer-events-none'></iframe>
+              </div>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     ))}

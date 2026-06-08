@@ -39,7 +39,7 @@ export const elvis: userProp[] = [
 
       {
         title: 'cinematographer',
-        career: 'photography/videography',
+        career: 'cinematography',
         years: 6,
         skills: ['photoshop', 'VSDC editor', 'premier rush'],
         job: [
