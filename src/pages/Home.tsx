@@ -77,10 +77,8 @@ const Project: React.FC = () => {
             <a href={project.url}>
               <div key={index} className='rounded-4xl bg-[#16161685] relative h-fit overflow-hidden origin-top-left aspect-video'>
                 <iframe src={project.url} style={{height: '400%', width: '400%'}} className='w-full h-full scale-[0.25] origin-top-left pointer-events-none'></iframe>
-                <p className='text-lg origin-center'>
-                  {project.title}
-                </p>
             </div>
+            {<h2 className='text-xl mt-2.5 p.5 bg-[#16161685] m-5'>{project.title}</h2>}
             </a>
           ))}
         </div>

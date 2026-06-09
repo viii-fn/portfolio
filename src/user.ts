@@ -20,7 +20,7 @@ export const elvis: userProp[] = [
             social: [
               {
                 title: 'website',
-                url: 'https://5point1nexus.com'
+                url: 'https://www.5point1nexus.com/'
               },
               
               {
@@ -31,6 +31,21 @@ export const elvis: userProp[] = [
               {
                 title: 'x',
                 url: 'https://x.com/5point1nexus'
+              },
+
+              {
+                title: 'youtube',
+                url: 'https://youtube.com/@5point1nexus'
+              },
+
+              {
+                title: 'linkedin',
+                url: 'https://linkedin.com/company/5point1nexus'
+              },
+
+              {
+                title: 'facebook',
+                url: 'https://facebook.com/5point1nexus'
               }
             ]
           }
@@ -92,6 +107,16 @@ export const elvis: userProp[] = [
       {
         title: 'instagram',
         url: 'https://instagram.com/viii_fn'
+      },
+
+      {
+        title: 'tiktok',
+        url: 'https://tiktok.com/viii_fn'
+      },
+      
+      {
+        title: 'whatsapp',
+        url: 'https://wa.me/+2348160575048'
       }
     ]
   } 
