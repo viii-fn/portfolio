@@ -16,7 +16,7 @@ export const elvis: userProp[] = [
             company: '5Point1Nexus',
             startDate: new Date(2026, 4, 21),
             endDate: null,
-            description: 'full stack software developer at 5Point1Nexus alongside the team building NexusPod',
+            description: 'Full stack software developer at 5Point1Nexus alongside the team building NexusPod',
             social: [
               {
                 title: 'website',
@@ -55,7 +55,7 @@ export const elvis: userProp[] = [
             company: 'dochuma academy',
             startDate: new Date(2025, 10, 9),
             endDate: new Date(2025, 11, 5),
-            description: 'coding and web-development tutor at dochuma academy, an educational organization responsible for deploying speed and abbacus maths teachers and as well as coding tutors and teachers to various institutions',
+            description: 'Coding and web-development tutor at dochuma academy, an educational organization responsible for deploying speed and abbacus maths teachers and as well as coding tutors and teachers to various institutions',
             social: [
               {
                 title: 'website',
@@ -87,7 +87,7 @@ export const elvis: userProp[] = [
             company: 'Charles Pictures',
             startDate: new Date(2026, 3, 23),
             endDate: null,
-            description: 'part time videographer and assitant photographer at Charles Pictures',
+            description: 'Part time videographer and assitant photographer at Charles Pictures',
             social: [
               {
                 title: 'instagram',

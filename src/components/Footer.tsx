@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
     <>
     {elvis.map(user => (
       <div className='w-[90%] rounded-4xl bg-[#16161685] mx-auto p-5 mb-30 text-[#9b9b9b] text-lg flex flex-col md:flex-row md:justify-between capitalize'>
-        <h1 className='text-4xl font-thin'>Let's Get In Touch</h1>
+        <h1 className='text-5xl font-thin'>Let's Get In Touch</h1>
         <div className='w-fit flex flex-row gap-3 animate-pulse my-5 md:my-0'>
           {user.social.map((platform, index) => {
             const Icon = socialIcons[platform.title]; 

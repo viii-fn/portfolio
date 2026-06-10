@@ -3,8 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
 import { Dev } from './pages/Dev';
-import { Media } from './pages/Media';
-import { Contact } from './pages/Contact';
 
 export default function App() {
   return (
@@ -17,8 +15,6 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dev" element={<Dev />} />
-          <Route path="/media" element={<Media />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
     </BrowserRouter>
