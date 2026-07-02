@@ -80,7 +80,7 @@ export const elvis: userProp[] = [
         title: 'cinematographer',
         career: 'cinematography',
         years: 6,
-        skills: ['photoshop', 'VSDC editor', 'premier rush'],
+        skills: ['davinci resolve', 'photoshop', 'VSDC editor', 'premier rush'],
         job: [
           {
             title: 'videographer',
