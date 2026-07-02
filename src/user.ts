@@ -100,8 +100,8 @@ export const elvis: userProp[] = [
     ],
     projects: [
       {
-        url: 'https://neon-compressor.pxxl.click/',
-        title: 'Neon Compressor',
+        url: 'https://image-compressor-neon.vercel.app/',
+        title: 'Image Compressor',
         description: 'A light weight image compressor with client side blob metrics. Built with react and tailwindcss, uses the browser native canvas api to compress images without the need for a backend server.'
       },
 
