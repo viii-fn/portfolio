@@ -86,7 +86,7 @@ export const elvis: userProp[] = [
             title: 'videographer',
             company: 'Charles Pictures',
             startDate: new Date(2026, 3, 23),
-            endDate: null,
+            endDate: new Date(2026, 5, 1),
             description: 'Part time videographer and assitant photographer at Charles Pictures',
             social: [
               {
