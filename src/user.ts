@@ -87,7 +87,7 @@ export const elvis: userProp[] = [
             company: 'Autrans AI',
             startDate: new Date(2026, 6, 24),
             endDate: null,
-            description: 'Videographer and content creator at Apex Founding Scholars',
+            description: 'Social media manager and videographer at Autrans AI, a company that builds AI powered voice trnscription tools',
             social: [
               {
                 title: 'website',
