@@ -83,6 +83,38 @@ export const elvis: userProp[] = [
         skills: ['davinci resolve', 'photoshop', 'VSDC editor', 'premier rush'],
         job: [
           {
+            title: 'social media manager and videographer',
+            company: 'Autrans AI',
+            startDate: new Date(2026, 6, 24),
+            endDate: null,
+            description: 'Videographer and content creator at Apex Founding Scholars',
+            social: [
+              {
+                title: 'website',
+                url: 'https://autrans.online/'
+              },
+              {
+                title: 'X',
+                url: 'https://x.com/AutransAi/'
+              }
+            ]
+          },
+
+          {
+            title: 'videographer and content creator',
+            company: 'Apex Founding Scholars',
+            startDate: new Date(2026, 6, 24),
+            endDate: null,
+            description: 'Videographer and content creator at Apex Founding Scholars',
+            social: [
+              {
+                title: 'website',
+                url: 'https://apex.pxxl.click/'
+              }
+            ]
+          },
+
+          {
             title: 'videographer',
             company: 'Charles Pictures',
             startDate: new Date(2026, 3, 23),
@@ -92,20 +124,6 @@ export const elvis: userProp[] = [
               {
                 title: 'instagram',
                 url: 'https://instagram.com/'
-              }
-            ]
-          },
-          
-          {
-            title: 'videographer',
-            company: 'Apex Founding Scholars',
-            startDate: new Date(2026, 6, 24),
-            endDate: null,
-            description: 'Videographer and content creator at Apex Founding Scholars',
-            social: [
-              {
-                title: 'website',
-                url: 'https://apex.pxxl.click/'
               }
             ]
           }
