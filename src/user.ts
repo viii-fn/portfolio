@@ -123,7 +123,7 @@ export const elvis: userProp[] = [
             social: [
               {
                 title: 'instagram',
-                url: 'https://instagram.com/'
+                url: 'https://instagram.com/charleskabeli/'
               }
             ]
           }
