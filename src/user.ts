@@ -94,6 +94,20 @@ export const elvis: userProp[] = [
                 url: 'https://instagram.com/'
               }
             ]
+          },
+          
+          {
+            title: 'videographer',
+            company: 'Apex Founding Scholars',
+            startDate: new Date(2026, 6, 24),
+            endDate: null,
+            description: 'Videographer and content creator at Apex Founding Scholars',
+            social: [
+              {
+                title: 'website',
+                url: 'https://apex.pxxl.click/'
+              }
+            ]
           }
         ]
       }
