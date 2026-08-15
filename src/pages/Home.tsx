@@ -44,7 +44,7 @@ const AboutSection: React.FC = () => {
         </div>
         <div className='p-2.5 rounded-2xl my-5'>
           <h2 className='font-thin'>
-            Code is my main canvas, and I work fluently in {user.roles[0].skills.map((skill, index) => (<strong key={index} className='capitalize'>{skill}, </strong>))} and modern frameworks to craft systems that feel <strong>fast, fluid, and future‑proof.</strong>
+            Code is my main canvas, and I work fluently in {user.roles[0].skills.map((skill, index) => (<strong key={index} className='capitalize'>{skill}, </strong>))} and modern frameworks to craft systems that feel <strong>fast, fluid, and future‑proof.</strong>
           </h2>
         </div>
         <div className='p-2.5 rounded-2xl my-5'>
@@ -63,7 +63,7 @@ const AboutSection: React.FC = () => {
   )
 }
 
-const ProjectSection: React.FC = () => {
+export const ProjectSection: React.FC = () => {
   return(
     <>
     {elvis.map(user => (

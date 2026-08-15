@@ -9,13 +9,13 @@ export const elvis: userProp[] = [
         title: 'software engineer',
         career: 'software engineering',
         years: 4,
-        skills: ['c#', 'javscript', 'typescript'],
+        skills: ['c#', 'javscript', 'typescript', 'python'],
         job: [
           {
             title: 'full stack developer',
             company: '5Point1Nexus',
             startDate: new Date(2026, 4, 21),
-            endDate: null,
+            endDate: new Date(2026, 6, 30),
             description: 'Full stack software developer at 5Point1Nexus alongside the team building NexusPod',
             social: [
               {
@@ -96,6 +96,14 @@ export const elvis: userProp[] = [
               {
                 title: 'X',
                 url: 'https://x.com/AutransAi/'
+              },
+              {
+                title: 'instagram',
+                url: 'https://instagram.com/autrans.ai/'
+              },
+              {
+                title: 'threads',
+                url: 'https://threads.com/autrans.ai/'
               }
             ]
           },
