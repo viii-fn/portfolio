@@ -254,6 +254,24 @@ export const elvis: userProp[] = [
             url: 'https://instagram.com/sj_dices'
           },
         ] 
+      },
+      
+      {
+        description: 'NFS Unbound trailer edit - Personal',
+        media: [
+          {
+            path: '/src/assets/NFS-edit.mov'
+          }
+        ]
+      },
+
+      {
+        description: 'New York City colorgrading - Personal',
+        media: [
+          {
+            path: '/src/assets/color-grade.mp4'
+          }
+        ]
       }
     ],
 
