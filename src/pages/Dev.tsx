@@ -1,7 +1,7 @@
 import React from 'react';
 import { elvis } from '../user';
 import { Footer } from '../components/Footer';
-import { WorkHistory } from './Home';
+import { History } from '../components/History';
 
 const LanguagesSection: React.FC = () => {
   return (
