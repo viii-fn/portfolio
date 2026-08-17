@@ -138,6 +138,7 @@ export const elvis: userProp[] = [
         ]
       }
     ],
+    
     projects: [
       {
         url: 'https://image-compressor-neon.vercel.app/',
