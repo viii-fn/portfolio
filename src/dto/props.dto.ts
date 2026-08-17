@@ -33,7 +33,7 @@ interface projectsProp {
 interface cinematographyProp {
   description: string;
   media: mediaProp[];
-  social: socialProp[];
+  social?: socialProp[];
 }
 
 interface socialProp {

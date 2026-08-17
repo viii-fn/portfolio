@@ -232,15 +232,28 @@ export const elvis: userProp[] = [
         description: 'Photos captured for a client while working with Charles Pictures and SJ-Dices',
         media: [
           {
-            path: '/src/assets/PxxlSpaceTrailer.mp4'
+            path: '/src/assets/cl1.jpg'
+          },
+          {
+            path: '/src/assets/cl2.jpg'
+          },
+          {
+            path: '/src/assets/cl3.jpg'
+          },
+          {
+            path: '/src/assets/cl4.jpg'
           }
         ],
         social: [
           {
-            title: 'website',
-            url: 'https://www.pxxl.app'
-          }
-        ]
+            title: 'instagram',
+            url: 'https://instagram.com/charleskabeli'
+          },
+          {
+            title: 'instagram 2',
+            url: 'https://instagram.com/sj_dices'
+          },
+        ] 
       }
     ],
 
