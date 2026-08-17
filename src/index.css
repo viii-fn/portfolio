@@ -11,6 +11,8 @@ html, body {
 
   strong {
     color: white;
+    font-style: italic;
+    font-weight: normal;
   }
 }
 @import "tailwindcss";

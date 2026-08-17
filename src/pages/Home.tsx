@@ -38,7 +38,7 @@ const AboutSection: React.FC = () => {
     {elvis.map(user => (
       <div className='p-5 my-10 mx-auto bg-[#16161685] text-[#9b9b9b] w-[90%] rounded-4xl text-lg'>
 
-          <h1 className='p-2.5 text-5xl text-white pb-2.5'>Hey there, I'm <b className='capitalize'>{user.firstName}</b></h1>
+          <h1 className='p-2.5 text-5xl text-white pb-2.5'><i>Hey there, I'm </i><i className='capitalize'>{user.firstName}</i></h1>
       <div className='md:grid md:grid-cols-2'>
         <div className='p-2.5 rounded-2xl my-5'> 
           <h2 className='font-thin'>

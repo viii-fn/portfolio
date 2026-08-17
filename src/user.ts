@@ -175,6 +175,89 @@ export const elvis: userProp[] = [
         description: '(Still in development) An interactive mock up preview for House 27 Homes, A real estate organization based in Nigeria.'
       }
     ],
+
+    cinematography: [
+      {
+        description: 'Trailer video for Pxxl Space, a hosting platform',
+        media: [
+          {
+            path: '/src/assets/PxxlSpaceTrailer.mp4'
+          }
+        ],
+        social: [
+          {
+            title: 'website',
+            url: 'https://www.pxxl.app'
+          },
+          {
+            title: 'x',
+            url: 'https://x.com/pxxl_space'
+          },
+          {
+            title: 'tiktok',
+            url: 'https://tiktok.com/pxxl_space'
+          }
+        ]
+      },
+
+      {
+        description: 'Trailer video for Autrans AI, an audio transcription tool',
+        media: [
+          {
+            path: '/src/assets/autrans.mp4'
+          }
+        ],
+        social: [
+          {
+            title: 'website',
+            url: 'https://www.autrans.'
+          }
+        ]
+      },
+      
+      {
+        description: 'Trailer video for Pxxl Space, a hosting platform',
+        media: [
+          {
+            path: '/src/assets/PxxlSpaceTrailer.mp4'
+          }
+        ],
+        social: [
+          {
+            title: 'website',
+            url: 'https://autrans.online/'
+          },
+          {
+            title: 'X',
+            url: 'https://x.com/AutransAi/'
+          },
+          {
+            title: 'instagram',
+            url: 'https://instagram.com/autrans.ai/'
+          },
+          {
+            title: 'threads',
+            url: 'https://threads.com/autrans.ai/'
+          }
+        ]
+      },
+      
+      {
+        description: 'Trailer video for Pxxl Space, a hosting platform',
+        media: [
+          {
+            path: '/src/assets/PxxlSpaceTrailer.mp4'
+          }
+        ],
+        social: [
+          {
+            title: 'website',
+            url: 'https://www.pxxl.app'
+          }
+        ]
+      }
+    ],
+
     social: [
       {
         title: 'github',
