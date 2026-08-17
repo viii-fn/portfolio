@@ -138,7 +138,7 @@ export const elvis: userProp[] = [
         ]
       }
     ],
-    
+
     projects: [
       {
         url: 'https://image-compressor-neon.vercel.app/',
@@ -211,21 +211,6 @@ export const elvis: userProp[] = [
         social: [
           {
             title: 'website',
-            url: 'https://www.autrans.'
-          }
-        ]
-      },
-      
-      {
-        description: 'Trailer video for Pxxl Space, a hosting platform',
-        media: [
-          {
-            path: '/src/assets/PxxlSpaceTrailer.mp4'
-          }
-        ],
-        social: [
-          {
-            title: 'website',
             url: 'https://autrans.online/'
           },
           {
@@ -244,7 +229,7 @@ export const elvis: userProp[] = [
       },
       
       {
-        description: 'Trailer video for Pxxl Space, a hosting platform',
+        description: 'Photos captured for a client while working with Charles Pictures and SJ-Dices',
         media: [
           {
             path: '/src/assets/PxxlSpaceTrailer.mp4'
