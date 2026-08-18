@@ -6,14 +6,16 @@ export const Media: React.FC = () => {
     {elvis.map(user => (
       <div className='mx-auto w-[90%] my-15'>
         <h1 className='text-3xl my-7 text-white tracking-widest uppercase font-thin font-sans mb-7'>
-          Things I've built
+          Clips i've worked on
         </h1>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
-          {user.projects.map((project, index) => (
+          {user.cinematography.map((project, index) => (
             <div className='bg-[#16161685] p-3 rounded-4xl w-full h-full '>
-              <h2 className='text-xl text-white'>{project.title}</h2>
+              <h2 className='text-xl text-white'>{project.description}</h2>
               <div key={index} className='relative h-fit overflow-hidden origin-top-left aspect-video my-3'>
-                {/*<iframe src={project.url} style={{height: '400%', width: '400%'}} className='w-full h-full scale-[0.25] origin-top-left pointer-events-none'></iframe>*/}
+                {/*{project.media.map((clip, index) => (
+                  {clip.isImage?}                  
+                ))}             */}   
               </div>
               <p className='text-[#9b9b9b] text-sm'>{project.description}</p>
               <a href={project.url}>
