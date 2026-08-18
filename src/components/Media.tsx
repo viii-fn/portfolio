@@ -13,9 +13,9 @@ export const Media: React.FC = () => {
             <div className='bg-[#16161685] p-3 rounded-4xl w-full h-full '>
               <h2 className='text-xl text-white'>{project.description}</h2>
               <div key={index} className='relative h-fit overflow-hidden origin-top-left aspect-video my-3'>
-                {/*{project.media.map((clip, index) => (
-                  {clip.isImage?}                  
-                ))}             */}   
+                {project.media.map((clip, index) => (
+                  <video key={index} src={clip.path} controls></video> 
+                ))}                
               </div>
               <p className='text-[#9b9b9b] text-sm'>{project.description}</p>
               <a href={project.url}>
