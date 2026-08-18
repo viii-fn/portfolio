@@ -42,5 +42,6 @@ interface socialProp {
 }
 
 interface mediaProp {
+  isImage: boolean;
   path: string;
 }

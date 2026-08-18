@@ -182,7 +182,8 @@ export const elvis: userProp[] = [
         description: 'Trailer video for Pxxl Space, a hosting platform',
         media: [
           {
-            path: '/src/assets/PxxlSpaceTrailer.mp4'
+            path: '/src/assets/PxxlSpaceTrailer.mp4',
+            isImage: false
           }
         ],
         social: [
@@ -205,7 +206,8 @@ export const elvis: userProp[] = [
         description: 'Trailer video for Autrans AI, an audio transcription tool',
         media: [
           {
-            path: '/src/assets/autrans.mp4'
+            path: '/src/assets/autrans.mp4',
+            isImage: false
           }
         ],
         social: [
@@ -232,16 +234,20 @@ export const elvis: userProp[] = [
         description: 'Photos captured for a client while working with Charles Pictures and SJ-Dices',
         media: [
           {
-            path: '/src/assets/cl1.jpg'
+            path: '/src/assets/cl1.jpg',
+            isImage: true
           },
           {
-            path: '/src/assets/cl2.jpg'
+            path: '/src/assets/cl2.jpg',
+            isImage: true
           },
           {
-            path: '/src/assets/cl3.jpg'
+            path: '/src/assets/cl3.jpg',
+            isImage: true
           },
           {
-            path: '/src/assets/cl4.jpg'
+            path: '/src/assets/cl4.jpg',
+            isImage: true
           }
         ],
         social: [
@@ -260,7 +266,8 @@ export const elvis: userProp[] = [
         description: 'NFS Unbound trailer edit - Personal',
         media: [
           {
-            path: '/src/assets/NFS-edit.mov'
+            path: '/src/assets/NFS-edit.mov',
+            isImage: false
           }
         ]
       },
@@ -269,7 +276,8 @@ export const elvis: userProp[] = [
         description: 'New York City colorgrading - Personal',
         media: [
           {
-            path: '/src/assets/color-grade.mp4'
+            path: '/src/assets/color-grade.mp4',
+            isImage: false
           }
         ]
       }
