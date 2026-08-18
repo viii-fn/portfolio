@@ -72,8 +72,8 @@ export const Home: React.FC = () => {
     <>
       <HeroSection />
       <AboutSection />
-      <Media />
       <Projects />
+      <Media />
       <Footer />
     </>
   )
