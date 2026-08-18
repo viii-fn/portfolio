@@ -201,34 +201,6 @@ export const elvis: userProp[] = [
           }
         ]
       },
-
-      {
-        description: 'Trailer video for Autrans AI, an audio transcription tool',
-        media: [
-          {
-            path: '/src/assets/autrans.mp4',
-            isImage: false
-          }
-        ],
-        social: [
-          {
-            title: 'website',
-            url: 'https://autrans.online/'
-          },
-          {
-            title: 'X',
-            url: 'https://x.com/AutransAi/'
-          },
-          {
-            title: 'instagram',
-            url: 'https://instagram.com/autrans.ai/'
-          },
-          {
-            title: 'threads',
-            url: 'https://threads.com/autrans.ai/'
-          }
-        ]
-      },
       
       {
         description: 'Photos for a client at Charles Pictures and SJ-Dices',
