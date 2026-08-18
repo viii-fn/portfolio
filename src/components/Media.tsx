@@ -20,9 +20,6 @@ export const Media: React.FC = () => {
                   </div> 
                 ))}                
               </div>
-              <a>
-                <div className='mt-5 p-2.5 rounded-2xl border font-thin w-fit text-[#9b9b9b] hover:text-white transition'>Preview</div>
-              </a>
             </div>
           ))}
         </div>
