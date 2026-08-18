@@ -231,7 +231,7 @@ export const elvis: userProp[] = [
       },
       
       {
-        description: 'Photos captured for a client while working with Charles Pictures and SJ-Dices',
+        description: 'Photos for a client at Charles Pictures and SJ-Dices',
         media: [
           {
             path: '/src/assets/cl1.jpg',

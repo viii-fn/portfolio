@@ -11,7 +11,7 @@ export const History: React.FC = () => {
         <div className='rounded-2xl'>
           {user.roles.map(role => (
             role.job?.map((jobItem, index) => (
-              <div key={index} className='bg-[#16161685] p-6 rounded-4xl border border-[#2c2c2c] hover:border-[#4c4c4c] transition duration-300 mb-5'>
+              <div key={index} className='bg-[#161616] p-6 rounded-4xl border border-[#2c2c2c] hover:border-[#4c4c4c] transition duration-300 mb-5'>
                 <div className='grid md:grid-cols-2 gap-5'>
                   <div>
                     <h2 className='text-3xl text-white font-semibold mb-2 capitalize'>{jobItem.title}</h2>

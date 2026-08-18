@@ -11,17 +11,16 @@ export const Media: React.FC = () => {
         </h1>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
           {user.cinematography.map((project, index) => (
-            <div className='bg-[#16161685] p-3 rounded-4xl w-full h-full '>
-              <h2 className='text-xl text-white'>{project.description}</h2>
-              <div key={index} className='relative h-fit overflow-hidden origin-top-left aspect-video my-3'>
+            <div className='bg-[#161616] p-3 rounded-4xl w-full h-full '>
+              <h2 className='text-xl text-white text-center'>{project.description}</h2>
+              <div key={index} className='relative h-fit overflow-hidden origin-top-left aspect-video my-3 flex flex-row gap-3 overflow-x-scroll'>
                 {project.media.map((clip, index) => (
-                  <div key={index} className='overflow-y-scroll flex-col h-[100%]'>
+                  <div key={index} className='h-full overflow-x-scroll'>
                     {clip.isImage ? <img className='h-[100%] w-fit' src={clip.path}></img> : <video key={index} src={clip.path} controls></video>}
                   </div> 
                 ))}                
               </div>
-              <p className='text-[#9b9b9b] text-sm'>{project.description}</p>
-              <a href={project.url}>
+              <a>
                 <div className='mt-5 p-2.5 rounded-2xl border font-thin w-fit text-[#9b9b9b] hover:text-white transition'>Preview</div>
               </a>
             </div>

@@ -10,8 +10,8 @@ export const Projects: React.FC = () => {
         </h1>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
           {user.projects.map((project, index) => (
-            <div className='bg-[#16161685] p-3 rounded-4xl w-full h-full '>
-              <h2 className='text-xl text-white'>{project.title}</h2>
+            <div className='bg-[#161616] p-3 rounded-4xl w-full h-full '>
+              <h2 className='text-xl text-white text-center'>{project.title}</h2>
               <div key={index} className='relative h-fit overflow-hidden origin-top-left aspect-video my-3'>
                 <iframe src={project.url} style={{height: '400%', width: '400%'}} className='w-full h-full scale-[0.25] origin-top-left pointer-events-none'></iframe>
               </div>

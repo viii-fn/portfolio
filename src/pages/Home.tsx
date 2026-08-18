@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
   return (
     <>
     {elvis.map(user => (
-      <div className='my-10 mx-auto bg-[#16161685] w-[90%] rounded-4xl p-2.5 flex flex-col md:flex-row md:justify-between'>
+      <div className='my-10 mx-auto bg-[#161616] w-[90%] rounded-4xl p-2.5 flex flex-col md:flex-row md:justify-between'>
         <div className="rounded-2xl md:w-[40%] md:ml-0">
           <img src={ProfilePic} alt={user.firstName} className='h-auto w-full rounded-3xl m-auto' />
         </div>
@@ -37,7 +37,7 @@ const AboutSection: React.FC = () => {
   return (
     <>
     {elvis.map(user => (
-      <div className='p-5 my-10 mx-auto bg-[#16161685] text-[#9b9b9b] w-[90%] rounded-4xl text-lg'>
+      <div className='p-5 my-10 mx-auto bg-[#161616] text-[#9b9b9b] w-[90%] rounded-4xl text-lg'>
 
           <h1 className='p-2.5 text-5xl text-white pb-2.5'><i>Hey there, I'm </i><i className='capitalize'>{user.firstName}</i></h1>
       <div className='md:grid md:grid-cols-2'>
