@@ -13,10 +13,10 @@ export const Media: React.FC = () => {
           {user.cinematography.map((project, index) => (
             <div className='bg-[#16161685] p-3 rounded-4xl w-full h-full '>
               <h2 className='text-xl text-white'>{project.description}</h2>
-              <div key={index} className='relative h-fit overflow-y-hidden overflow-x-scroll display-flex origin-top-left aspect-video my-3'>
+              <div key={index} className='relative h-fit overflow-hidden origin-top-left aspect-video my-3'>
                 {project.media.map((clip, index) => (
-                  <div key={index}>
-                    {clip.isImage ? <img className='h-[100%] w-auto' src={clip.path}></img> : <video key={index} src={clip.path} controls></video>}
+                  <div key={index} className='overflow-y-scroll flex-col h-[100%]'>
+                    {clip.isImage ? <img className='h-[100%] w-fit' src={clip.path}></img> : <video key={index} src={clip.path} controls></video>}
                   </div> 
                 ))}                
               </div>

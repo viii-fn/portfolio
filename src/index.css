@@ -3,11 +3,6 @@ html, body {
   margin: 0;
   padding: 0;
   scrollbar-width: thin;
-  scrollbar-color: transparent #9b9b9b;
-  
-  @media (max-width: 768px) {
-    scrollbar-width: none;
-  }
 
   strong {
     color: #fff;
