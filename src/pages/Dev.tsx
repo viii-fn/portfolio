@@ -44,7 +44,7 @@ export const Dev: React.FC = () => {
     <>
       <LanguagesSection />
       <FrameworksSection />
-      <WorkHistory />
+      <History />
       <Footer />
     </>
   )

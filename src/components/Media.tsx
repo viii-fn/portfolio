@@ -15,8 +15,8 @@ export const Media: React.FC = () => {
               <h2 className='text-xl text-white text-center'>{project.description}</h2>
               <div key={index} className='relative h-fit overflow-hidden origin-top-left aspect-video my-3 flex flex-row gap-3 overflow-x-scroll'>
                 {project.media.map((clip, index) => (
-                  <div key={index} className='h-full overflow-x-scroll'>
-                    {clip.isImage ? <img className='h-[100%] w-fit' src={clip.path}></img> : <video key={index} src={clip.path} controls></video>}
+                  <div key={index} className='h-full overflow-x-scroll flex-shrink-0 h-full w-fit'>
+                    {clip.isImage ? <img src={clip.path} className='h-full' /> : <video key={index} src={clip.path} controls></video>}
                   </div> 
                 ))}                
               </div>

@@ -4,7 +4,6 @@ import { Footer } from '../components/Footer';
 import { elvis } from '../user';
 import { Media } from '../components/Media';
 import { Projects } from '../components/Projects';
-import { History } from '../components/History';
 
 
 const HeroSection: React.FC = () => {
@@ -75,7 +74,6 @@ export const Home: React.FC = () => {
       <AboutSection />
       <Media />
       <Projects />
-      <History />
       <Footer />
     </>
   )
