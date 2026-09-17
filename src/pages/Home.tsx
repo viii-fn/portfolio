@@ -58,7 +58,7 @@ const AboutSection: React.FC = () => {
         >
           {/* Header */}
           <h1 className="p-2.5 text-4xl sm:text-5xl text-white pb-6 font-thin">
-            <i>Hey there, I'm </i><i className="capitalize font-normal">{user.firstName}, </i><i>you can call me </i><i className='uppercase'>{user.nickName}</i>
+            <i>Hey there, I'm </i><i className="capitalize font-normal">{user.firstName}</i>, <i className='text-xl'>(known as <i className='uppercase'>{user.nickName}</i> everywhere else)</i>
           </h1>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
