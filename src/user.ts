@@ -2,6 +2,8 @@ import { type userProp } from "./dto/props.dto";
 
 export const elvis: userProp[] = [
   {
+    nickName: 'viii',
+    userName: '@viii_fn',
     firstName: 'elvis',
     lastName: 'irhaye',
     roles: [
