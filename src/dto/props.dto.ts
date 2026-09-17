@@ -1,9 +1,10 @@
 export interface userProp {
+  nickName: string;
+  userName: string;
   firstName: string;
   lastName: string;
   roles: rolesProp[];
   projects: projectsProp[];
-  videography: videographyProp[];
   social: socialProp[];
 }
 
@@ -28,11 +29,6 @@ interface projectsProp {
   url: string;
   title: string;
   description: string;
-}
-
-interface videographyProp {
-  description: string;
-  social?: socialProp[];
 }
 
 interface socialProp {

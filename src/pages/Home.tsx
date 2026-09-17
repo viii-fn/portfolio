@@ -9,10 +9,8 @@ import { Projects } from '../components/Projects';
 const HeroSection: React.FC = () => {
   return (
     <>
-      {elvis.map((user, idx) => (
-        <div 
-          key={user.id || idx}
-          style={{ backgroundImage: `linear-gradient(to top, #000000 10%, transparent 100%), url(${BG})` }}
+      {elvis.map(user => (
+        <div style={{ backgroundImage: `linear-gradient(to top, #000000 10%, transparent 100%), url(${BG})` }}
           className="mx-auto bg-cover bg-center bg-no-repeat min-h-screen w-full px-4 py-12 flex flex-col justify-center items-center text-white"
         >
           {/* Username */}
@@ -51,10 +49,8 @@ const HeroSection: React.FC = () => {
 const AboutSection: React.FC = () => {
   return (
     <>
-      {elvis.map((user, idx) => (
-        <section 
-          key={user.id || idx}
-          className="p-6 sm:p-10 my-16 mx-auto bg-[#161616] text-[#9b9b9b] w-[90%] max-w-6xl rounded-3xl sm:rounded-4xl text-lg shadow-2xl border border-neutral-800"
+      {elvis.map(user => (
+        <section className="p-6 sm:p-10 my-16 mx-auto bg-[#161616] text-[#9b9b9b] w-[90%] max-w-6xl rounded-3xl sm:rounded-4xl text-lg shadow-2xl border border-neutral-800"
         >
           {/* Header */}
           <h1 className="p-2.5 text-4xl sm:text-5xl text-white pb-6 font-thin">
