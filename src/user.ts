@@ -77,17 +77,17 @@ export const elvis: userProp[] = [
       },
 
       {
-        title: 'cinematographer',
-        career: 'cinematography',
+        title: 'videographer',
+        career: 'videography',
         years: 6,
-        skills: ['davinci resolve', 'photoshop', 'VSDC editor', 'premier rush'],
+        skills: ['cavalry, davinci resolve', 'photoshop', 'VSDC editor', 'premier rush'],
         job: [
           {
-            title: 'social media manager and videographer',
+            title: 'motion designer and videographer',
             company: 'Autrans AI',
             startDate: new Date(2026, 6, 24),
             endDate: null,
-            description: 'Social media manager and videographer at Autrans AI, a company that builds AI powered voice trnscription tools',
+            description: 'motion designer and videographer at Autrans AI, a company that builds AI powered voice trnscription tools',
             social: [
               {
                 title: 'website',
@@ -109,7 +109,7 @@ export const elvis: userProp[] = [
           },
 
           {
-            title: 'videographer and content creator',
+            title: 'motion designer',
             company: 'Apex Founding Scholars',
             startDate: new Date(2026, 6, 24),
             endDate: null,
@@ -147,9 +147,9 @@ export const elvis: userProp[] = [
       },
 
       {
-        url: 'https://github.com/viii-fn/Fn_Control_Pannel/',
-        title: 'Fn_Control_Pannel',
-        description: 'A simple batch file tool for automating repetitive tasks as well as getting vital system info from windows.'
+        url: 'https://vidpixar.pxxl.click',
+        title: 'VidPixar',
+        description: 'A social media platform for connecting videographers and clients with ease.'
       },
 
       {
@@ -174,84 +174,6 @@ export const elvis: userProp[] = [
         url: 'https://house27homes.vercel.app/',
         title: 'House 27',
         description: '(Still in development) An interactive mock up preview for House 27 Homes, A real estate organization based in Nigeria.'
-      }
-    ],
-
-    cinematography: [
-      {
-        description: 'Trailer video for Pxxl Space, a hosting platform',
-        media: [
-          {
-            path: '/src/assets/PxxlSpaceTrailer.mp4',
-            isImage: false
-          }
-        ],
-        social: [
-          {
-            title: 'website',
-            url: 'https://www.pxxl.app'
-          },
-          {
-            title: 'x',
-            url: 'https://x.com/pxxl_space'
-          },
-          {
-            title: 'tiktok',
-            url: 'https://tiktok.com/pxxl_space'
-          }
-        ]
-      },
-      
-      {
-        description: 'Photos for a client at Charles Pictures and SJ-Dices',
-        media: [
-          {
-            path: '/src/assets/cl1.jpg',
-            isImage: true
-          },
-          {
-            path: '/src/assets/cl2.jpg',
-            isImage: true
-          },
-          {
-            path: '/src/assets/cl3.jpg',
-            isImage: true
-          },
-          {
-            path: '/src/assets/cl4.jpg',
-            isImage: true
-          }
-        ],
-        social: [
-          {
-            title: 'instagram',
-            url: 'https://instagram.com/charleskabeli'
-          },
-          {
-            title: 'instagram 2',
-            url: 'https://instagram.com/sj_dices'
-          },
-        ] 
-      },
-      
-      {
-        description: 'NFS Unbound trailer edit - Personal',
-        media: [
-          {
-            path: '/src/assets/NFS-edit.mov',
-            isImage: false
-          }
-        ]
-      },
-
-      {
-        description: 'New York City colorgrading - Personal',
-        media: [
-          {
-            path: '/src/assets/color-grade.mp4',
-            isImage: false
-          }
-        ]
       }
     ],
 

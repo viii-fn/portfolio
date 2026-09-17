@@ -3,7 +3,7 @@ export interface userProp {
   lastName: string;
   roles: rolesProp[];
   projects: projectsProp[];
-  cinematography: cinematographyProp[];
+  videography: videographyProp[];
   social: socialProp[];
 }
 
@@ -30,18 +30,12 @@ interface projectsProp {
   description: string;
 }
 
-interface cinematographyProp {
+interface videographyProp {
   description: string;
-  media: mediaProp[];
   social?: socialProp[];
 }
 
 interface socialProp {
   title: string;
   url: string;
-}
-
-interface mediaProp {
-  isImage: boolean;
-  path: string;
 }

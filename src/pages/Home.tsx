@@ -2,7 +2,6 @@ import React from 'react';
 import ProfilePic from '../assets/pfp.JPG';
 import { Footer } from '../components/Footer';
 import { elvis } from '../user';
-import { Media } from '../components/Media';
 import { Projects } from '../components/Projects';
 
 
@@ -73,7 +72,6 @@ export const Home: React.FC = () => {
       <HeroSection />
       <AboutSection />
       <Projects />
-      <Media />
       <Footer />
     </>
   )
